@@ -1,0 +1,19 @@
+{
+  "name": "github-webhook",
+  "version": "1.0.0",
+  "description": "HTTP server for handling GitHub Webhook requests",
+  "author": "Márton Visnovitz <vimtaai@inf.elte.hu>",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "bin": "bin/github-webhook.js",
+  "repository": "github:elte-fi/github-webhook",
+  "bugs": "https://github.com/elte-fi/github-webhook/issues",
+  "homepage": "https://github.com/elte-fi/github-webhook#readme",
+  "scripts": {
+    "start": "node lib/index.js"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.16.3"
+  }
+}
